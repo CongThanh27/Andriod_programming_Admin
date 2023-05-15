@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+
+            <corners android:radius="15dp"/>
+        </shape>
+
+        <item android:state_selected="true" android:color="#86CCF7" /> <!-- Màu sắc khi được chọn -->
+        <item android:color="#FF8D8C" /> <!-- Màu sắc khi không được chọn -->
+    </item>
+
+</selector>

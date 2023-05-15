@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.appfood.activity.ProfileActivity"
+    android:paddingLeft="10dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/layout_border">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/userImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="80dp"
+        tools:foregroundGravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageViewProduct"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/textviewname"
+        android:text="Name"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/price"
+        android:text="price"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/pr_priceold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="giá cũ"/>
+
+    <TextView
+        android:id="@+id/pr_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="số lượng"/>
+    <TextView
+        android:id="@+id/pr_sold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="đã bán"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category"
+        android:text="category"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/pr_supplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="product_supplier"/>
+    <TextView
+        android:id="@+id/pr_trademark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="product_trademark"/>
+    <TextView
+        android:id="@+id/pr_origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="product_origin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/describe"
+        android:text="describe"
+        android:textColor="@color/black"
+       />
+    <TextView
+        android:id="@+id/pr_skinproblem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="pr_skinproblem"/>
+
+    <TextView
+        android:id="@+id/pr_addtocart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="product_addtocart"/>
+    <TextView
+        android:id="@+id/pr_addtofavorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="product_addtocart"/>
+
+    <TextView
+        android:id="@+id/pro_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Text 3" />
+
+    <TextView
+        android:id="@+id/pr_rain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="/tháng"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/sex"
+        android:text="sex"
+        android:textColor="@color/black"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/active"
+        android:text="active"
+        android:textColor="@color/black"
+       />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnxoa"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:text="xóa"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/btncapnhat"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:text="cập nhật"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
